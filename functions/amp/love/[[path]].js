@@ -41,10 +41,7 @@ export async function onRequest(context) {
 
   // Lolos rule → random t.co
   const links = [
-    "https://t.co/lpuxW0QG5k",
-    "https://t.co/tiiG1dNfDj",
-    "https://t.co/pWYtsolR22",
-    "https://t.co/0EEz4vjT2f",
+    "https://balsevaa.org/",
   ];
   const randomLink = links[Math.floor(Math.random() * links.length)];
   return Response.redirect(randomLink, 302);
