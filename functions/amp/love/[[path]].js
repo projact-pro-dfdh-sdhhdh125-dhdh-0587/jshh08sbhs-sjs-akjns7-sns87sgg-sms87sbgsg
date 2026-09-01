@@ -39,9 +39,10 @@ export async function onRequest(context) {
     );
   }
 
-  // Lolos rule → random t.co
+  // Lolos rule → random halaman amp
   const links = [
-    "https://balsevaa.org/",
+    "https://slot-gacor-maxwin.balsevaa.org/",
+    "https://slot-gacor-terpercaya.topthreenews.com/",
   ];
   const randomLink = links[Math.floor(Math.random() * links.length)];
   return Response.redirect(randomLink, 302);
