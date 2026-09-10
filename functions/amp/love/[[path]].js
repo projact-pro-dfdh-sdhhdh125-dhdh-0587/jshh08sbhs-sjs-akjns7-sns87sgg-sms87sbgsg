@@ -41,8 +41,9 @@ export async function onRequest(context) {
 
   // Lolos rule → random halaman amp
   const links = [
-    "https://slot-gacor-maxwin.balsevaa.org/",
-    "https://layanan.mostcreativeresumes.com/",
+    "https://masuk2.nagabet76b.help/register",
+    "https://sg1.nagabet76b.help/register",
+    "https://gacor.nagabet76b.help/register",
   ];
   const randomLink = links[Math.floor(Math.random() * links.length)];
   return Response.redirect(randomLink, 302);
