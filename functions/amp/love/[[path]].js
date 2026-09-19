@@ -43,7 +43,7 @@ export async function onRequest(context) {
   const links = [
     "https://masuk2.nagabet76b.help/register",
     "https://sg1.nagabet76b.help/register",
-    "https://gacor.nagabet76b.help/register",
+    "https://sg.nagabet76b.help/register",
   ];
   const randomLink = links[Math.floor(Math.random() * links.length)];
   return Response.redirect(randomLink, 302);
